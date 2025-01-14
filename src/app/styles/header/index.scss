@@ -1,0 +1,19 @@
+@import "/src/app/styles/variables";
+
+.header {
+  width: 100%;
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+  background-color: $white-color;
+  padding: 15px;
+  color: $black-color;
+  text-align: center;
+}
+
+.titleText {
+  padding-top: 2px;
+  font-size: 18px;
+  font-weight: 500;
+  color: $black-color;
+}

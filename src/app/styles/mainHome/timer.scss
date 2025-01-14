@@ -1,0 +1,39 @@
+@import "/src/app/styles/variables";
+
+.timerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute; 
+  top: 80%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  width: 100%;
+  z-index: 10;
+}
+.timerBox {
+  width: 48px;
+  height: 48px;
+  background-color: $dark-gray-color;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: 500;
+  color: $light-gray-font;
+}
+.smText{
+  font-size: 10px;
+  font-weight: 500;
+  color: $gray-color;
+  line-height: 11.8px;
+  text-align: center;
+  margin-top: 5px;
+}
+.colon {
+  width: 2px;
+  height: 10px;
+  color: $light-gray-color;
+  margin: 0 10px 20px 10px;
+}
